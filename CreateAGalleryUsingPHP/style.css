@@ -1,0 +1,164 @@
+header{
+    margin-bottom: 5%;
+}
+
+.header-brand{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15%;
+    margin-top: -3%;
+}
+
+ul li a {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding-right: 2%;
+    font-size: 100%;
+    color: #606060;
+}
+
+.header-cases{
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #606060;
+    color: #606060;
+    text-transform: uppercase;
+}
+
+footer{
+    background: #000;
+    color: #fff;
+}
+
+.footer-links-main{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.footer-links-main li a{
+    color: #fff;
+    padding-bottom: 20%;
+}
+
+.footer-cases-main{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer-cases-main li a{
+    color: #fff;
+    display: inline-block;
+    margin-right: 48%;
+}
+
+.gallery-links h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    width: 230px;
+    margin: 20px 10px 0;
+}
+
+.gallery-container a:hover{
+    opacity: 0.8;
+}
+
+.gallery-container a div {
+    width: 50%;
+    height: 235px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div .gallery-container{
+    margin-top: 2%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-container a h3{
+    font-family: Catamaran;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+}
+
+.gallery-container p{
+    font-family: Catamaran;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+}
+
+form {
+    padding: 16px;
+    max-width: 800px;
+    margin-left: 20%;
+    background-color: rgb(255, 254, 195);
+ }
+ input[type=text], input[type=filename] {
+    width: 90%;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+ }
+ input[type=text]:focus, input[type=filetitle]:focus {
+    background-color: #ddd;
+    outline: none;
+ }
+ input[type=text]:focus, input[type=file]:focus {
+    background-color: #ddd;
+    outline: none;
+ }
+ hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+ }
+ .gallery-upload button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+ }
+ .gallery-upload button:hover {
+    opacity: 1;
+ }
+ a {
+    color: dodgerblue;
+    text-decoration: none;
+ }
+ @media (max-width: 800px) {
+    form {
+       width: 100%;
+       margin-left: 0px;
+    }
+ }
+ 
